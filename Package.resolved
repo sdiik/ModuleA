@@ -1,0 +1,15 @@
+{
+  "originHash" : "8330ad144a9e166b9c7eeae228adeecf396bc59243d2147627ae31636ff0562f",
+  "pins" : [
+    {
+      "identity" : "utilitieslibrary",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sdiik/UtilitiesLibrary",
+      "state" : {
+        "revision" : "7b351b86bd66cc7fc0c453d30ee567912b5af25a",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
