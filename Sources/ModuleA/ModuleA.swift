@@ -5,6 +5,8 @@ import SwiftUI
 
 public struct ModuleA: View {
     
+    public init() {}
+    
     @ObservedObject public var viewModel = ModuleAViewModel()
     
     public var body: some View {
