@@ -3,11 +3,11 @@
 
 import SwiftUI
 
-struct ModuleA: View {
+public struct ModuleA: View {
     
-    @ObservedObject var viewModel = ModuleAViewModel()
+    @ObservedObject public var viewModel = ModuleAViewModel()
     
-    var body: some View {
+    public var body: some View {
         VStack(alignment: .center, content: {
             Text("Test Module A")
             Button {

@@ -8,9 +8,11 @@
 import Foundation
 import UtilitiesLibrary
 
-class ModuleAViewModel: ObservableObject {
+public class ModuleAViewModel: ObservableObject {
     
-    func submitTapped() {
+    public init() {}
+    
+    public func submitTapped() {
         let addPathURL = Utilities().baseURL + "blink1 182"
         print("========>", addPathURL)
     }
