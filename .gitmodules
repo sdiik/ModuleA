@@ -1,0 +1,3 @@
+[submodule "UtilitiesLibrary"]
+	path = UtilitiesLibrary
+	url = https://github.com/sdiik/UtilitiesLibrary.git

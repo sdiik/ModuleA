@@ -11,5 +11,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # Adding multiple dependencies
-  s.dependency 'UtilitiesLibrary', :git => 'https://github.com/sdiik/UtilitiesLibrary.git', :tag => '1.0.5'
+  s.dependency 'UtilitiesLibrary'
+  s.subspec 'UtilitiesLibrary' do |ss|
+      ss.source_file = 'UtilitiesLibrary/**/*.{swift}'
+  end
 end
