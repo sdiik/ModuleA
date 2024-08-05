@@ -9,4 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/sdiik/ModuleA.git', :tag => s.version.to_s }
   s.source_files  = 'Sources/ModuleA/**/*.{h,m,swift}'
   s.requires_arc = true
+
+  # Adding multiple dependencies
+  s.dependency 'UtilitiesLibrary', :git => 'https://github.com/sdiik/UtilitiesLibrary.git', :tag => '1.0.5'
 end
