@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   # Adding multiple dependencies
   s.dependency 'UtilitiesLibrary'
   s.subspec 'UtilitiesLibrary' do |ss|
-      ss.source_file = 'UtilitiesLibrary/**/*.{swift}'
+      ss.source_files = 'UtilitiesLibrary/Sources/UtilitiesLibrary/**/*.{h,m,swift}'
   end
 end
