@@ -13,7 +13,8 @@ let package = Package(
             targets: ["ModuleA"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/sdiik/UtilitiesLibrary", from: "1.0.1")
+        .package(url: "https://github.com/sdiik/UtilitiesLibrary", from: "1.0.1"),
+        .package(url: "https://github.com/sdiik/KMPSPM", from: "1.0.5"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -21,7 +22,8 @@ let package = Package(
         .target(
             name: "ModuleA",
             dependencies: [
-                .product(name: "UtilitiesLibrary", package: "UtilitiesLibrary")
+                .product(name: "UtilitiesLibrary", package: "UtilitiesLibrary"),
+                .product(name: "KmpSpm", package: "KmpSpm")
             ]
         ),
         .testTarget(

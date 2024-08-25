@@ -7,6 +7,7 @@
 
 import Foundation
 import UtilitiesLibrary
+import Shared
 
 public class ModuleAViewModel: ObservableObject {
     
@@ -15,5 +16,8 @@ public class ModuleAViewModel: ObservableObject {
     public func submitTapped() {
         let addPathURL = Utilities().baseURL + "blink1 182"
         print("========>", addPathURL)
+        
+        let error = NetworkError.unauthorized.name
+        print("========>", error)
     }
 }

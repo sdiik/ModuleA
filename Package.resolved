@@ -1,13 +1,22 @@
 {
-  "originHash" : "8330ad144a9e166b9c7eeae228adeecf396bc59243d2147627ae31636ff0562f",
+  "originHash" : "18b5fb5cf4269ab3758606321ff3b9b8a35731080eca5c4a3f077fc65a5df49d",
   "pins" : [
+    {
+      "identity" : "kmpspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sdiik/KMPSPM",
+      "state" : {
+        "revision" : "562c29cfe7afadc89a8d62d6c42d3d2098b17972",
+        "version" : "1.0.5"
+      }
+    },
     {
       "identity" : "utilitieslibrary",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/sdiik/UtilitiesLibrary",
       "state" : {
-        "revision" : "7b351b86bd66cc7fc0c453d30ee567912b5af25a",
-        "version" : "1.0.2"
+        "revision" : "0ed87df01c41ae029262690f5e5a726cfeb1f7df",
+        "version" : "1.0.6"
       }
     }
   ],
